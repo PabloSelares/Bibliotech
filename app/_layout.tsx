@@ -33,10 +33,11 @@ export default function RootLayout() {
 <Stack.Screen name="screens/inicio" options={{ headerShown: false }} />
 <Stack.Screen name="screens/cadastro" options={{ headerShown: false }} />
 <Stack.Screen name="screens/login" options={{ headerShown: false }} />
-
-     
-     
-
+<Stack.Screen name="screens/home" options={{ headerShown: false }} />
+  <Stack.Screen name="screens/livrosdisponiveis" options={{ headerShown: false }} />
+       <Stack.Screen name="screens/minhaestante" options={{ headerShown: false }} />
+       <Stack.Screen name="screens/livrosemleitura" options={{ headerShown: false }} />
+          <Stack.Screen name="screens/suporte" options={{ headerShown: false }} />
       <Stack.Screen
         name="home"
         options={{
